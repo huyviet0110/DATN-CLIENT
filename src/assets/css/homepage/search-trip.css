@@ -1,0 +1,151 @@
+.section-search-trip {
+  width: 100%;
+  height: 480px;
+  background-image: url('/src/assets/images/bg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.section-search-trip .container-search-trip {
+  width: 1080px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.section-search-trip .container-search-trip .filter-trips {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid rgb(224, 224, 224);
+}
+
+.section-search-trip .container-search-trip .title-ads {
+  font-size: 34px;
+  font-weight: 500;
+  color: white;
+  line-height: 1;
+  white-space: nowrap;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 2px 4px;
+  margin-bottom: 10px !important;
+}
+
+.section-search-trip .container-search-trip .bus-icon {
+  width: 24px;
+  height: 24px;
+  color: rgb(71, 71, 71);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  fill: rgb(36, 116, 229);
+  margin-right: 24px;
+}
+
+.section-search-trip .container-search-trip .current-service {
+  border-bottom: 4px solid rgb(36, 116, 229);
+  font-size: 16px;
+  line-height: 24px;
+  width: 20%;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.section-search-trip .container-search-trip .current-service span {
+  color: rgb(36, 116, 229) !important;
+  font-weight: bold;
+}
+
+.section-search-trip .icon {
+  height: 100%;
+  float: left;
+}
+
+.section-search-trip .icon-switch {
+  z-index: 4;
+  right: 0px;
+  top: 50%;
+  transform: translate(50%, -50%);
+  cursor: pointer;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: absolute;
+  background: white;
+}
+
+.section-search-trip .switch-icon {
+  float: left;
+  display: flex;
+  width: 32px;
+  height: 32px;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: rgb(242, 242, 242) !important;
+}
+
+.section-search-trip .info {
+  float: left;
+  padding-left: 12px;
+  color: rgb(20, 20, 20);
+}
+
+.section-search-trip .filter-info {
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 8px;
+}
+
+.section-search-trip .btn-search-trips {
+  width: 100%;
+  height: auto;
+  padding: 18px 51px;
+  border-radius: 8px;
+  background: rgb(255, 211, 51);
+  color: rgb(72, 72, 72);
+}
+
+.section-search-trip .btn-search-trips:hover,
+.section-search-trip .btn-search-trips:active {
+  background-color: rgb(248, 174, 0) !important;
+  color: rgb(72, 72, 72) !important;
+}
+
+.section-search-trip .info .title {
+  font-size: 12px;
+  color: rgb(133, 133, 133) !important;
+  font-weight: 500;
+}
+
+.section-search-trip .info .name {
+  font-weight: 500;
+  width: 150px;
+}
+
+.section-search-trip .info .detail {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.section-search-trip .departure-location {
+  padding-left: 16px !important;
+  border-right: 1px solid rgb(224, 224, 224);
+}
+
+.section-search-trip .destination-location {
+  padding-left: 32px !important;
+  border-right: 1px solid rgb(224, 224, 224);
+}
+
+.section-search-trip .departure-date {
+  padding-left: 16px !important;
+}
+
+.section-search-trip .btn-search-trips {
+  width: calc(100% + 12px);
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: -12px;
+}

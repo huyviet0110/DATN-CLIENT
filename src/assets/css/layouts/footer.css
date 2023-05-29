@@ -1,0 +1,86 @@
+footer .row {
+  margin-left: -6px !important;
+  margin-right: -12px !important;
+}
+
+footer h4 {
+  color: rgb(72, 72, 72);
+  font-size: 18px;
+  border-bottom: none;
+  font-weight: 500;
+  height: 30px;
+}
+
+footer nav ul {
+  padding-left: 0;
+}
+
+footer nav ul li {
+  list-style-type: none;
+}
+
+footer nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 6px 0;
+  color: rgb(118, 118, 118);
+  font-size: 14px;
+}
+
+footer .first-footer {
+  margin-top: 40px;
+  padding-top: 24px;
+}
+
+footer .first-footer,
+footer .second-footer,
+footer .third-footer {
+  background: 0 0 no-repeat padding-box padding-box rgb(243, 243, 243);
+  opacity: 1;
+  box-shadow: 0 0 0 100vmax rgb(243, 243, 243);
+  clip-path: inset(0 -100vmax);
+}
+
+footer .third-footer {
+  margin-bottom: 32px;
+}
+
+footer .third-footer .hr-line {
+  border: 1px solid rgb(192, 192, 192);
+  opacity: 0.3;
+  margin-bottom: 20px;
+}
+
+footer .third-footer a {
+  color: rgb(77, 77, 77);
+}
+
+footer .third-footer .app-install {
+  width: 150px;
+  height: 50px;
+}
+
+footer .third-footer h4 {
+  border-bottom: none;
+  height: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+footer .fifth-footer {
+  text-align: center;
+  color: rgb(118, 118, 118);
+  font-size: 14px;
+  margin-bottom: 80px;
+}
+
+footer .fifth-footer h4 {
+  color: #4D4D4D;
+  font-weight: bold;
+  margin-bottom: -4px;
+}
+
+footer .fifth-footer p {
+  margin-bottom: 0;
+}

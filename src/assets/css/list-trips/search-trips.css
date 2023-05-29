@@ -1,0 +1,128 @@
+.section-search-trips .content-header .col {
+  border: 1px solid rgb(213, 218, 221);
+  border-radius: 3px;
+}
+
+.section-search-trips .header {
+  display: flex;
+  border-bottom: 3px solid rgb(36, 116, 229);
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.section-search-trips .bus-text {
+  margin-left: 10px;
+  color: rgb(36, 116, 229);
+}
+
+.section-search-trips .bread-crumb {
+  margin: 20px 0;
+}
+
+.section-search-trips .bread-crumb a {
+  color: #1890ff;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.section-search-trips .bread-crumb span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #484848;
+}
+
+.section-search-trips .search-trips-form {
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 3px;
+}
+
+.section-search-trips .form-control {
+  border: none;
+}
+
+.section-search-trips .form-control:focus {
+  box-shadow: none;
+}
+
+.section-search-trips .search-trips-form .icon-location {
+  width: 15px;
+  height: 28px;
+  margin-top: 3px;
+}
+
+.section-search-trips .search-trips-form .col-4 {
+  border-right: 1px solid rgb(192, 192, 192);
+}
+
+.section-search-trips .search-trips-form .col-11 {
+  padding-left: 0 !important;
+}
+
+.section-search-trips .search-trips-form svg path {
+  fill: rgb(24, 97, 197);
+}
+
+.section-search-trips .search-trips-form .switch-location {
+  z-index: 4;
+  right: 0px;
+  top: 50%;
+  transform: translate(50%, -50%);
+  cursor: pointer;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: absolute;
+  background: white;
+}
+
+.section-search-trips .search-trips-form .col-4 {
+  padding: 0 !important;
+}
+
+.section-search-trips .search-trips-form .departure-location-row {
+  padding-left: 10px !important;
+}
+
+.section-search-trips .search-trips-form .btn-search-trip {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  outline: 1px solid rgb(248, 174, 0);
+  background: rgb(255, 197, 0);
+  color: rgb(72, 72, 72);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+}
+
+.section-search-trips .search-trips-form .btn-search-trip:hover {
+  background: rgb(248, 174, 0);
+  color: rgb(72, 72, 72);
+}
+
+.section-search-trips .title-ads {
+  width: 100%;
+  height: 30px;
+}
+
+.section-search-trips .title-ads p {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 18px;
+  color: rgb(72, 72, 72);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}

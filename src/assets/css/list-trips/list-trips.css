@@ -1,0 +1,549 @@
+.trip-information {
+  border-radius: 4px;
+  border: 1px solid rgb(192, 192, 192);
+  margin-bottom: 16px;
+  margin-top: 20px !important;
+  margin-bottom: 0;
+}
+
+.trip-information .header {
+  margin-top: 16px;
+}
+
+.trip-information .header .notification {
+  width: 14%;
+  float: left;
+  background: #007AFF;
+  color: #ffffff;
+  font-size: 14px;
+  height: 28px;
+}
+
+.trip-information .header .notification .right-arrow {
+  width: 300px;
+  height: 900px;
+  position: relative;
+  line-height: 28px;
+}
+
+.trip-information .header .notification .right-arrow:before {
+  content: "";
+  position: absolute;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 14px solid #007AFF;
+  right: -32px;
+  top: -4px;
+}
+
+.trip-information .header .description {
+  width: 30%;
+  float: left;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.trip-information .bus-main-image {
+  width: 145px;
+  height: 150px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  position: relative;
+  float: left;
+  padding-left: 0 !important;
+}
+
+.trip-information .bus-main-image img {
+  height: 100%;
+  width: 100%;
+  object-position: center center;
+  object-fit: cover;
+}
+
+.trip-information .trip-detail {
+  margin-top: 20px;
+  margin-bottom: 36px;
+}
+
+.trip-information .trip-info .name {
+  font-size: 16px;
+  color: rgb(72, 72, 72);
+  font-weight: bold;
+}
+
+.trip-information .trip-info .seat-number {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.trip-information .trip-info .pickup_dropoff_time span {
+  color: rgb(72, 72, 72);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.trip-information .bus-main-image {
+  float: left;
+}
+
+.trip-information .trip-info {
+  width: 36%;
+  float: left;
+  padding: 0 !important;
+}
+
+.trip-information .trip-info svg {
+  width: 5%;
+  float: left;
+  padding: 0 !important;
+  margin-top: 6px;
+  margin-right: 10px;
+}
+
+.trip-information .trip-info .trip-time {
+  width: 90%;
+  float: left;
+  padding: 0 !important;
+}
+
+.trip-information .trip-info .trip-time .total-time {
+  color: rgb(112, 112, 112);
+}
+
+.trip-information .trip-info .trip-time {
+  width: 90%;
+  float: left;
+  padding: 0 !important;
+}
+
+.trip-information .view-trip-detail {
+  width: 20%;
+  float: left;
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-left: 22px;
+}
+
+.trip-information .view-trip-detail .b-icon.bi {
+  margin-left: 2px;
+}
+
+.trip-information .price-info {
+  width: 20%;
+  float: left;
+  padding: 0 !important;
+  text-align: right;
+}
+
+.trip-information .price-info .price {
+  font-size: 20px;
+  color: rgb(0, 96, 196);
+  font-weight: bold;
+}
+
+.trip-information .price-info .discount {
+  color: #484848;
+  margin-top: 10px;
+}
+
+.trip-information .price-info .seat-remaining {
+  font-size: 16px;
+  color: rgb(72, 72, 72);
+  margin-top: 20px;
+}
+
+.trip-information .price-info .select-trip button {
+  margin-top: 16px;
+  background: rgb(255, 199, 0);
+  color: rgb(72, 72, 72);
+  font-weight: 500;
+  border-radius: 2px;
+  border: none;
+  padding: 0 16px;
+  height: 35px;
+}
+
+.trip-information .el-carousel__container {
+  height: 480px;
+}
+
+.trip-information .el-tabs__nav-scroll {
+  border-top: 1px solid rgb(192, 192, 192);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.trip-information .el-tabs__nav .is-top {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.trip-information .el-tabs__nav .is-top .is-active {
+  color: #1890ff;
+}
+
+.trip-information .bus-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 70%;
+  height: 340px;
+}
+
+.trip-information .bus-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.trip-information .bus-image-item {
+  width: 50px;
+  height: 50px;
+}
+
+.trip-information .el-carousel__indicators.el-carousel__indicators--horizontal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.trip-information .el-carousel__indicator--horizontal {
+  padding: 0;
+}
+
+.trip-information .el-tabs__item.is-top {
+  font-weight: normal !important;
+}
+
+.trip-information .el-tabs__item.is-top.is-active {
+  font-weight: 500 !important;
+}
+
+.trip-information .el-carousel__indicators.el-carousel__indicators--horizontal li {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 12px;
+}
+
+.trip-information .el-carousel__indicators.el-carousel__indicators--horizontal li:nth-child(1) {
+  background-image: url("/src/assets/images/list-trips/1559637728383.jpeg");
+}
+
+.trip-information .el-carousel__indicators.el-carousel__indicators--horizontal li:nth-child(2) {
+  background-image: url("/src/assets/images/list-trips/1664766332372.jpeg");
+}
+
+.trip-information .el-carousel__indicators.el-carousel__indicators--horizontal li:nth-child(3) {
+  background-image: url("/src/assets/images/list-trips/1559637746787.jpeg");
+}
+
+.trip-information .el-carousel__indicators.el-carousel__indicators--horizontal li:nth-child(4) {
+  background-image: url("/src/assets/images/list-trips/166476633237223.jpeg");
+}
+
+.trip-information .el-carousel__indicators.el-carousel__indicators--horizontal li:nth-child(5) {
+  background-image: url("/src/assets/images/list-trips/1660614512334.jpeg");
+}
+
+.trip-information .report {
+  text-align: right;
+  margin: 10px 0;
+}
+
+.trip-information .report a {
+  color: rgb(14, 99, 193);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.trip-information .el-carousel__arrow.el-carousel__arrow--right {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  margin-right: 70px;
+  margin-top: -70px;
+  box-shadow: 0 0 2px 0 #888888;
+}
+
+.trip-information .el-carousel__arrow.el-carousel__arrow--left {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  margin-left: 70px;
+  margin-top: -70px;
+  box-shadow: 0 0 2px 0 #888888;
+}
+
+.trip-information .extension-list {
+  background: rgb(245, 245, 245);
+  width: 82%;
+  margin: 18px auto 0;
+}
+
+.trip-information .extension-list p {
+  margin-bottom: 0;
+}
+
+.trip-information .extension-list ul li {
+  list-style-type: none;
+  border-bottom: 1px solid #c5c4c4;
+  padding: 12px;
+}
+
+.trip-information .extension-list ul {
+  padding-left: 0;
+}
+
+.trip-information .extension-list .icon {
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-right: 8px;
+}
+
+.trip-information .extension-list .icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.trip-information .extension-list .title {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  line-height: 32px;
+}
+
+.trip-information .extension-list .description {
+  color: rgba(0, 0, 0, .65);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.trip-information .el-tabs__nav-wrap::after {
+  width: 550px;
+  margin-left: 73px;
+}
+
+.trip-information .station-places {
+  width: 550px;
+  margin: 0 auto;
+}
+
+.trip-information .station-places .title p {
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(0, 96, 196);
+}
+
+.trip-information .station-places .description p {
+  font-size: 16px;
+  color: rgb(77, 77, 77);
+}
+
+.trip-information .pickup-dropoff-stations {
+  width: 100%;
+  height: 400px;
+  padding: 16px;
+  margin-left: 26px;
+}
+
+.trip-information .pickup-dropoff-stations p {
+  margin-bottom: 10px;
+}
+
+.trip-information .pickup-dropoff-stations li {
+  list-style-type: none;
+  margin-top: 13px;
+}
+
+.trip-information .pickup-dropoff-stations li:first-child {
+  margin-top: 0;
+}
+
+.trip-information .pickup-dropoff-stations ul {
+  padding-left: 0;
+}
+
+.trip-information .pickup-dropoff-stations .title p {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(77, 77, 77);
+}
+
+.trip-information .pickup-dropoff-stations .time,
+.trip-information .pickup-dropoff-stations .name {
+  font-size: 16px;
+  color: rgb(77, 77, 77);
+}
+
+.trip-information .pickup-dropoff-stations .time {
+  font-weight: 500;
+}
+
+.trip-information .pickup-dropoff-stations .pickup-places {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.trip-information .pickup-dropoff-stations .dropoff-places {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.trip-information .pickup-dropoff-stations .pickup-places .list-pickup,
+.trip-information .pickup-dropoff-stations .dropoff-places .list-dropoff {
+  overflow-x: auto;
+  height: 320px;
+  width: 80%;
+}
+
+.trip-information .policy {
+  width: 550px;
+  margin: 0 auto;
+  color: rgba(0,0,0,.65);
+}
+
+.trip-information .policy .title p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.trip-information .policy .requirement p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+.trip-information .policy ul li {
+  list-style-type: disc;
+}
+
+.trip-information .policy .requirement li {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.trip-information .feedback {
+  width: 550px;
+  margin: 0 auto;
+}
+
+.trip-information .feedback p {
+  color: rgba(0,0,0,.65);
+  font-weight: 500;
+  text-align: center;
+}
+
+.trip-information .select-trip .el-steps--horizontal {
+  white-space: nowrap;
+  border-bottom: 1px solid rgb(192, 192, 192);
+  border-top: 1px solid rgb(192, 192, 192);
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.trip-information .select-trip .step-1 {
+  height: 200px;
+}
+
+.trip-information .select-trip .step-1 .select-seat-quantity {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trip-information .select-trip .title p {
+  color: rgb(14, 99, 193);
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: rgb(236, 244, 253);
+  margin-top: 16px;
+}
+
+.trip-information .select-trip .step-1 .select-seat-quantity .title {
+  width: 15%;
+  float: left;
+}
+
+.trip-information .select-trip .step-1 .select-seat-quantity .quantity {
+  width: 30%;
+  float: left;
+}
+
+.trip-information .select-trip .btn-step {
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+}
+
+.trip-information .select-trip .btn-step .btn-previous-step {
+  width: 10%;
+  height: 100%;
+  float: left;
+}
+
+.trip-information .select-trip .btn-step .btn-next-step {
+  width: 10%;
+  height: 100%;
+  float: right;
+  margin-right: 20px;
+}
+
+.trip-information .select-trip .btn-step .btn-next-step button {
+  background: rgb(0, 96, 196);
+  color: #ffffff;
+}
+
+.trip-information .select-trip .step-2 .pickup-dropoff-stations .title-station p {
+  color: rgb(72, 72, 72);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.trip-information .select-trip .step-2 .pickup-dropoff-stations .custom-control-input {
+  margin-right: 8px;
+}
+
+.trip-information .select-trip .step-3 .form-receiver {
+  width: 400px;
+  margin: 40px auto 0;
+}
+
+.trip-information .select-trip .step-3 .form-receiver label {
+  margin-top: 16px;
+  color: rgb(72, 72, 72);
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.trip-information .select-trip .step-3 .form-receiver .license {
+  margin-top: 16px;
+}
+
+.trip-information .select-trip .step-3 .form-receiver .license p {
+  margin-bottom: 0;
+  font-size: 14px;
+  color: rgb(112, 112, 112);
+}
+
+.trip-information .select-trip .step-3 .form-receiver .license p a {
+  font-weight: 700;
+}

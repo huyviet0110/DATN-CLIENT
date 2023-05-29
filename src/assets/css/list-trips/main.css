@@ -1,0 +1,32 @@
+.list-trips-page {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.list-trips.col-9 {
+  padding-right: 0 !important;
+  border: none;
+  cursor: default;
+}
+
+.button-center {
+  width: 25% !important;
+  margin: 0 auto;
+}
+
+.custom-radio-btn input[type='radio'] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer !important;
+}
+
+.custom-radio-btn input[type='radio'][name="dropoff_place"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer !important;
+}
+
+.custom-radio-btn label {
+  cursor: pointer !important;
+  width: 90%;
+}

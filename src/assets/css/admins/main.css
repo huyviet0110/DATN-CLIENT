@@ -1,0 +1,65 @@
+.admins-page {
+  width: 1125px;
+  margin: 0 auto;
+}
+
+.admins-page header {
+  width: 100%;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.buses-management td, .buses-management th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.buses-management tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.buses-management tr:hover {
+  background-color: #ddd;
+}
+
+.buses-management th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.custom-select {
+  display: inline-block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  vertical-align: middle;
+  background: #fff url('/src/assets/images/download.svg') right 0.75rem center/8px 10px no-repeat;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.show-image-buses {
+  width: 200px;
+  height: auto;
+}
+
+.admins-side-bar {
+  height: 250px !important;
+}
+
+.b-time-header {
+  width: 100%;
+}
+
+.border-table {
+  border: 1px solid #0d6efd;
+}

@@ -1,0 +1,43 @@
+.section-ads-list .title {
+  margin-top: 48px;
+}
+
+.section-ads-list .title h1 {
+  margin-top: 48px;
+  color: rgb(72, 72, 72);
+  text-align: left;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0;
+  opacity: 1;
+  margin-bottom: 16px;
+}
+
+.section-ads-list .card img {
+  height: 150px;
+}
+
+.section-ads-list .card-body {
+  height: 80px;
+  border-radius: 0 0 4px 4px;
+}
+
+.section-ads-list .card-title {
+  font-size: 18px;
+  margin-bottom: 4px;
+  text-align: left;
+  color: rgb(20, 20, 20) !important;
+  font-weight: 500;
+}
+
+.section-ads-list .card-service {
+  text-decoration: none;
+}
+
+.section-ads-list .col {
+  padding-left: 0 !important;
+}
+
+.section-ads-list .card {
+  height: 250px !important;
+}

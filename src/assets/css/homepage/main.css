@@ -1,0 +1,38 @@
+.homepage .container-main {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.col {
+  padding-left: 0 !important;
+}
+
+.el-input__prefix,
+.el-input__suffix {
+  display: none;
+}
+
+.el-input__inner {
+  font-weight: 500;
+  font-size: 16px !important;
+  color: rgb(20, 20, 20) !important;
+}
+
+.el-date-editor.el-input {
+  width: 180px !important;
+}
+
+.el-carousel__arrow {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+.slide-top-list:last-child {
+  margin-right: 0 !important;
+}
+
+.list-advertisement:last-child {
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+
+}

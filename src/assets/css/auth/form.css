@@ -1,0 +1,20 @@
+.layout {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  padding-top: 120px;
+}
+
+.form-group {
+  margin-top: 16px;
+}
+
+.text-normal {
+  text-decoration: none;
+}
+
+.error-color {
+  color: #ff0000;
+}

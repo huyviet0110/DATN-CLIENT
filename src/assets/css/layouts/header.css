@@ -1,0 +1,102 @@
+header {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+header .company-logo {
+  height: 100%;
+}
+
+header .nav-bar a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  padding: 8px 10px;
+}
+
+header .nav-bar img {
+  height: 20px;
+}
+
+header .btn-hotline,
+header .btn-hotline:hover {
+  border: 1px solid rgb(224, 224, 224);
+  color: #000000;
+}
+
+header .btn-hotline:hover {
+  background-color: rgb(243, 243, 243);
+}
+
+header .btn-hotline img {
+  margin-right: 6px;
+  width: 15px;
+  height: 15px;
+}
+
+header .btn-login,
+header .btn-login:hover,
+header .btn-login:active {
+  background-color: rgb(13, 46, 89) !important;
+  color: #ffffff !important;
+}
+
+header .dropdown-menu {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+header .dropdown-item {
+  padding: 4px 4px;
+}
+
+header .dropdown-item:hover {
+  background-color: #e6f7ff;
+  color: #000000;
+}
+
+header .dropdown-item:hover a {
+  color: #000000;
+}
+
+header .col-3 {
+  padding-left: 0 !important;
+}
+
+header .col-9 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.dropdown-right button {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.dropdown-right ul {
+  top: 5px !important;
+}
+
+.img-avatar {
+  height: 28px !important;
+  width: 28px !important;
+  border-radius: 50%;
+}
+
+#dropdown-right__BV_toggle_ {
+  border: none;
+  background-color: #ffff;
+}
+
+#dropdown-right__BV_toggle_:focus-visible {
+  box-shadow: none;
+}
+
+.dropdown-toggle::after {
+  color: #000000;
+}
+
+.btn-small {
+  width: 80px !important;
+}
